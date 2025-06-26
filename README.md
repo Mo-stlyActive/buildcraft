@@ -83,4 +83,12 @@ To add support for a new game:
 
 ## Contributing
 
-Follow the task management workflow defined in `.cursor/process-task-list.mdc` and `.context+plan/ai_state_context.md`. 
+Follow the project's version control and branching strategy outlined in CONTRIBUTING.md.
+
+## Version Control & Branching Strategy
+
+- All work is done on feature branches (e.g., `feat/feature-name`, `fix/bug-description`).
+- All changes to `main` must go through a pull request (PR) and require at least one review.
+- Use Conventional Commits for commit messages.
+- Tag releases on `main` as `v1.0.0`, `v1.1.0`, etc.
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for full details. 
