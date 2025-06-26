@@ -1,0 +1,20 @@
+{
+  "name": "@buildcraft/types",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared TypeScript types for BuildCraft AI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5",
+    "eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^6",
+    "@typescript-eslint/parser": "^6"
+  }
+} 

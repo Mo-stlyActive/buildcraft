@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BuildCraft AI - Monorepo
+
+AI-powered game build advisor for multiple RPGs, built with a scalable monorepo architecture.
+
+## Project Structure
+
+```
+buildcraft/
+├── web/                    # Next.js frontend application
+├── api/                    # Backend API services
+├── data/                   # Game data scraping and processing
+│   ├── oblivion/          # Oblivion-specific data
+│   └── shared/            # Shared data structures
+├── packages/              # Shared packages/libraries
+│   ├── types/            # Shared TypeScript types
+│   └── utils/            # Shared utilities
+└── docs/                  # Documentation
+```
+
+## Workspaces
+
+- **`web`**: Next.js frontend with TypeScript and Tailwind CSS
+- **`api`**: Express.js backend API services
+- **`data`**: Python/TypeScript scripts for game data scraping
+- **`packages/types`**: Shared TypeScript type definitions
+- **`packages/utils`**: Shared utility functions
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js >= 18.0.0
+- npm >= 8.0.0
 
+### Installation
 ```bash
+# Install all workspace dependencies
+npm install
+
+# Start development server (frontend)
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build all workspaces
+npm run build
+
+# Run tests across all workspaces
+npm run test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Workspace-specific Commands
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Frontend (web)
+```bash
+npm run dev --workspace=web
+npm run build --workspace=web
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### API (api)
+```bash
+npm run dev --workspace=api
+npm run build --workspace=api
+```
 
-## Learn More
+#### Data Processing (data)
+```bash
+npm run scrape:oblivion --workspace=data
+npm run process:oblivion --workspace=data
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Development Workflow
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Frontend Development**: Work in the `web/` directory
+2. **Backend Development**: Work in the `api/` directory  
+3. **Data Processing**: Work in the `data/` directory
+4. **Shared Code**: Use `packages/types` and `packages/utils` for common functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Adding New Games
 
-## Deploy on Vercel
+To add support for a new game:
+1. Create a new directory in `data/[game-name]/`
+2. Add game-specific scraping scripts
+3. Update shared types in `packages/types/`
+4. Add game-specific UI components in `web/`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Follow the task management workflow defined in `.cursor/process-task-list.mdc` and `.context+plan/ai_state_context.md`. 

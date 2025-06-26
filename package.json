@@ -1,27 +1,27 @@
 {
-  "name": "web",
+  "name": "buildcraft-ai",
   "version": "0.1.0",
   "private": true,
+  "description": "AI-powered game build advisor for multiple RPGs",
+  "workspaces": [
+    "web",
+    "api",
+    "data",
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "dev": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=web",
+    "start": "npm run start --workspace=web",
+    "lint": "npm run lint --workspaces",
+    "test": "npm run test --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present && rm -rf node_modules"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "@types/node": "^20"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
-}
+} 

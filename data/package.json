@@ -1,0 +1,28 @@
+{
+  "name": "@buildcraft/data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Game data scraping and processing for BuildCraft AI",
+  "main": "src/index.ts",
+  "scripts": {
+    "scrape:oblivion": "tsx src/oblivion/scraper.ts",
+    "process:oblivion": "tsx src/oblivion/processor.ts",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/fs-extra": "^11.0.1",
+    "typescript": "^5",
+    "tsx": "^4.6.2",
+    "eslint": "^8",
+    "@typescript-eslint/eslint-plugin": "^6",
+    "@typescript-eslint/parser": "^6"
+  }
+} 
