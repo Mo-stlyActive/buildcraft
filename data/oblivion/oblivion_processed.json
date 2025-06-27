@@ -1,0 +1,9082 @@
+{
+  "skills": [
+    {
+      "name": "Strength",
+      "governing_attribute": "Blade",
+      "specialization": "Blunt",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Endurance",
+      "governing_attribute": "Armorer",
+      "specialization": "Block",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Speed",
+      "governing_attribute": "Athletics",
+      "specialization": "Acrobatics",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Agility",
+      "governing_attribute": "Security",
+      "specialization": "Sneak",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Personality",
+      "governing_attribute": "Mercantile",
+      "specialization": "Speechcraft",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Intelligence",
+      "governing_attribute": "Alchemy",
+      "specialization": "Conjuration",
+      "type": "skill",
+      "category": "other"
+    },
+    {
+      "name": "Willpower",
+      "governing_attribute": "Alteration",
+      "specialization": "Destruction",
+      "type": "skill",
+      "category": "other"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "Iron",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "1",
+        "property_2": "1"
+      }
+    },
+    {
+      "name": "Fine Iron",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "NA",
+        "property_2": "2"
+      }
+    },
+    {
+      "name": "Steel",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "2",
+        "property_2": "3"
+      }
+    },
+    {
+      "name": "Fine Steel",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "NA",
+        "property_2": "4"
+      }
+    },
+    {
+      "name": "Silver",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "4",
+        "property_2": "7"
+      }
+    },
+    {
+      "name": "Dwarven",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "6",
+        "property_2": "10"
+      }
+    },
+    {
+      "name": "Elven",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "9",
+        "property_2": "13"
+      }
+    },
+    {
+      "name": "Glass",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "12",
+        "property_2": "12"
+      }
+    },
+    {
+      "name": "Ebony",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "16",
+        "property_2": "16"
+      }
+    },
+    {
+      "name": "Daedric",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "20",
+        "property_2": "20"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Iron Arrow",
+        "property_2": "00017829",
+        "property_3": "0.1",
+        "property_4": "1",
+        "property_5": "8",
+        "property_6": "10"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Steel Arrow",
+        "property_2": "000229C1",
+        "property_3": "0.1",
+        "property_4": "2",
+        "property_5": "9",
+        "property_6": "12"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Silver Arrow",
+        "property_2": "0001EFD4",
+        "property_3": "0.1",
+        "property_4": "3",
+        "property_5": "10",
+        "property_6": "13"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Dwarven Arrow",
+        "property_2": "00022BE2",
+        "property_3": "0.15",
+        "property_4": "4",
+        "property_5": "11",
+        "property_6": "14"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Glass Arrow",
+        "property_2": "00022BE1",
+        "property_3": "0.1",
+        "property_4": "12",
+        "property_5": "13",
+        "property_6": "17"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Ebony Arrow",
+        "property_2": "0001EFD5",
+        "property_3": "0.2",
+        "property_4": "20",
+        "property_5": "14",
+        "property_6": "18"
+      }
+    },
+    {
+      "name": "",
+      "type": "weapons",
+      "category": "weapons",
+      "properties": {
+        "property_1": "Daedric Arrow",
+        "property_2": "0001EFD3",
+        "property_3": "0.25",
+        "property_4": "35",
+        "property_5": "15",
+        "property_6": "20"
+      }
+    }
+  ],
+  "armor": [
+    {
+      "name": "1",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Fur",
+        "property_2": "Iron"
+      }
+    },
+    {
+      "name": "3",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Leather",
+        "property_2": "Steel"
+      }
+    },
+    {
+      "name": "6",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Chainmail",
+        "property_2": "Dwarven"
+      }
+    },
+    {
+      "name": "10",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Mithril",
+        "property_2": "Orcish"
+      }
+    },
+    {
+      "name": "15",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Elven",
+        "property_2": "Ebony"
+      }
+    },
+    {
+      "name": "20",
+      "type": "armor",
+      "category": "armor",
+      "properties": {
+        "property_1": "Glass",
+        "property_2": "Daedric"
+      }
+    }
+  ],
+  "potions": [
+    {
+      "name": "Potion of Absorption",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009849F",
+        "property_3": "Spell Absorption15 pts for 15 secs",
+        "property_4": "144",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009321",
+        "property_2": "Spell Absorption 30 pts for 30 secs",
+        "property_3": "699",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A0",
+        "property_2": "Spell Absorption 45 pts for 45 secs",
+        "property_3": "1763",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Agility",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092E8",
+        "property_3": "Fortify Agility10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098471",
+        "property_2": "Fortify Agility 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092E9",
+        "property_2": "Fortify Agility 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Alacrity",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009318",
+        "property_3": "Restore Speed5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009849B",
+        "property_2": "Restore Speed 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009319",
+        "property_2": "Restore Speed 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Antivenom",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009848F",
+        "property_3": "Resist Poison15 pts for 15 secs",
+        "property_4": "32",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009308",
+        "property_2": "Resist Poison 20 pts for 30 secs",
+        "property_3": "69",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098490",
+        "property_2": "Resist Poison 40 pts for 30 secs",
+        "property_3": "168",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Chameleon",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00088B1D",
+        "property_3": "Chameleon15 pts for 30 secs",
+        "property_4": "60",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00088B1C",
+        "property_2": "Chameleon 15 pts for 30 secs",
+        "property_3": "60",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00088B1E",
+        "property_2": "Chameleon 25 pts for 30 secs",
+        "property_3": "116",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Charisma",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009316",
+        "property_3": "Restore Personality5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009849A",
+        "property_2": "Restore Personality 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009317",
+        "property_2": "Restore Personality 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Dedication",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00056E52",
+        "property_3": "Restore Willpower5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E55",
+        "property_2": "Restore Willpower 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E58",
+        "property_2": "Restore Willpower 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Detect Life",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000922F",
+        "property_3": "Detect Life30 feet for 30 seconds",
+        "property_4": "16",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A6",
+        "property_2": "Detect Life 60 feet for 30 seconds",
+        "property_3": "45",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009230",
+        "property_2": "Detect Life 100 feet for 30 seconds",
+        "property_3": "87",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Disbelief",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009848D",
+        "property_3": "Resist Magic15 pts for 5 secs",
+        "property_4": "32",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009307",
+        "property_2": "Resist Magic 10 pts for 30 secs",
+        "property_3": "114",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009848E",
+        "property_2": "Resist Magic 15 pts for 30 secs",
+        "property_3": "192",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Dispel",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000984A7",
+        "property_3": "Dispel15 pts",
+        "property_4": "15",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000927B",
+        "property_2": "Dispel 30 pts",
+        "property_3": "27",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A8",
+        "property_2": "Dispel 45 pts",
+        "property_3": "47",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Endurance",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092EA",
+        "property_3": "Fortify Endurance10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098472",
+        "property_2": "Fortify Endurance 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092EB",
+        "property_2": "Fortify Endurance 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Fatigue",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092EC",
+        "property_3": "Fortify Fatigue30 pts for 30 secs",
+        "property_4": "9",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098473",
+        "property_2": "Fortify Fatigue 45 pts for 30 secs",
+        "property_3": "15",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092ED",
+        "property_2": "Fortify Fatigue 60 pts for 34 secs",
+        "property_3": "33",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Feather",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009846D",
+        "property_3": "Feather25 for 240 seconds",
+        "property_4": "14",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092E6",
+        "property_2": "Feather 50 for 300 seconds",
+        "property_3": "44",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009846E",
+        "property_2": "Feather 100 for 300 seconds",
+        "property_3": "108",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Fire Shield",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009846F",
+        "property_3": "Fire Shield10 pts for 20 secs",
+        "property_4": "36",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092E7",
+        "property_2": "Fire Shield 15 pts for 30 secs",
+        "property_3": "91",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098470",
+        "property_2": "Fire Shield 20 pts for 45 secs",
+        "property_3": "197",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Fortitude",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000930C",
+        "property_3": "Restore Endurance5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098494",
+        "property_2": "Restore Endurance 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000930D",
+        "property_2": "Restore Endurance 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Fortune",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009314",
+        "property_3": "Restore Luck5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098498",
+        "property_2": "Restore Luck 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009315",
+        "property_2": "Restore Luck 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Frost Shield",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009847B",
+        "property_3": "Frost Shield10 pts for 20 secs",
+        "property_4": "36",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092FE",
+        "property_2": "Frost Shield 15 pts for 30 secs",
+        "property_3": "91",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009847C",
+        "property_2": "Frost Shield 20 pts for 45 secs",
+        "property_3": "197",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Grace",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000930A",
+        "property_3": "Restore Agility5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098493",
+        "property_2": "Restore Agility 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000930B",
+        "property_2": "Restore Agility 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Grounding",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098491",
+        "property_3": "Resist Shock15 pts for 15 secs",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009309",
+        "property_2": "Resist Shock 20 pts for 30 secs",
+        "property_3": "69",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098492",
+        "property_2": "Resist Shock 40 pts for 30 secs",
+        "property_3": "168",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Healing",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009310",
+        "property_3": "Restore Health20 pts",
+        "property_4": "46",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098496",
+        "property_2": "Restore Health 35 pts",
+        "property_3": "94",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009311",
+        "property_2": "Restore Health 50 pts",
+        "property_3": "149",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Health",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092EE",
+        "property_3": "Fortify Health10 pts for 60 secs",
+        "property_4": "16",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098474",
+        "property_2": "Fortify Health 30 pts for 60 secs",
+        "property_3": "65",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092EF",
+        "property_2": "Fortify Health 50 pts for 60 secs",
+        "property_3": "125",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Insight",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009312",
+        "property_3": "Restore Intelligence5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098497",
+        "property_2": "Restore Intelligence 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009313",
+        "property_2": "Restore Intelligence 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Insulation",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009848A",
+        "property_3": "Resist Fire15 pts for 15 secs",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009305",
+        "property_2": "Resist Fire 20 pts for 30 secs",
+        "property_3": "69",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098489",
+        "property_2": "Resist Fire 40 pts for 30 secs",
+        "property_3": "168",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Intelligence",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092F0",
+        "property_3": "Fortify Intelligence10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098475",
+        "property_2": "Fortify Intelligence 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092F1",
+        "property_2": "Fortify Intelligence 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009847D",
+        "property_3": "Invisibilityfor 15 seconds",
+        "property_4": "60",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092FF",
+        "property_2": "Invisibility for 30 seconds",
+        "property_3": "120",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009847E",
+        "property_2": "Invisibility for 45 seconds",
+        "property_3": "180",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Light",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009847F",
+        "property_3": "Light20 pts for 60 secs",
+        "property_4": "14",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009300",
+        "property_2": "Light 30 pts for 120 secs",
+        "property_3": "47",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098480",
+        "property_2": "Light 40 pts for 180 secs",
+        "property_3": "103",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Luck",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092F2",
+        "property_3": "Fortify Luck10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098476",
+        "property_2": "Fortify Luck 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092F3",
+        "property_2": "Fortify Luck 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Magicka",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092F8",
+        "property_3": "Fortify Magicka30 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098477",
+        "property_2": "Fortify Magicka 30 pts for 60 secs",
+        "property_3": "69",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092F9",
+        "property_2": "Fortify Magicka 50 pts for 60 secs",
+        "property_3": "134",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Might",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000931C",
+        "property_3": "Restore Strength5 pts",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009849C",
+        "property_2": "Restore Strength 10 pts",
+        "property_3": "72",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000931D",
+        "property_2": "Restore Strength 20 pts",
+        "property_3": "175",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Nighteye",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098481",
+        "property_3": "Night-Eyefor 15 seconds",
+        "property_4": "33",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009301",
+        "property_2": "Night-Eye for 30 seconds",
+        "property_3": "66",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098482",
+        "property_2": "Night-Eye for 90 seconds",
+        "property_3": "198",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Personality",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092F4",
+        "property_3": "Fortify Personality10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098478",
+        "property_2": "Fortify Personality 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092F5",
+        "property_2": "Fortify Personality 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Reflection",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098485",
+        "property_3": "Reflect Spell15 pts for 15 secs",
+        "property_4": "168",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009303",
+        "property_2": "Reflect Spell 30 pts for 15 secs",
+        "property_3": "408",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098486",
+        "property_2": "Reflect Spell 30 pts for 50 secs",
+        "property_3": "1360",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Resistance",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098487",
+        "property_3": "Resist Disease15 pts for 15 secs",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009304",
+        "property_2": "Resist Disease 30 pts for 30 secs",
+        "property_3": "116",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098488",
+        "property_2": "Resist Disease 30 pts for 45 secs",
+        "property_3": "174",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Respite",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000930E",
+        "property_3": "Restore Fatigue20 pts",
+        "property_4": "9",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098495",
+        "property_2": "Restore Fatigue 35 pts",
+        "property_3": "18",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000930F",
+        "property_2": "Restore Fatigue 50 pts",
+        "property_3": "29",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of the Sea",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009324",
+        "property_3": "Water Breathingfor 30 seconds",
+        "property_4": "43",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A3",
+        "property_2": "Water Breathing for 45 seconds",
+        "property_3": "65",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009325",
+        "property_2": "Water Breathing for 90 seconds",
+        "property_3": "130",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Seastride",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009326",
+        "property_3": "Water Walkingfor 30 seconds",
+        "property_4": "39",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A4",
+        "property_2": "Water Walking for 45 seconds",
+        "property_3": "58",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009327",
+        "property_2": "Water Walking for 90 seconds",
+        "property_3": "117",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Shock Shield",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00009AE0",
+        "property_3": "Shock Shield10 pts for 20 secs",
+        "property_4": "36",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009AE3",
+        "property_2": "Shock Shield 15 pts for 30 secs",
+        "property_3": "91",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009AE4",
+        "property_2": "Shock Shield 20 pts for 45 secs",
+        "property_3": "197",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Sorcery",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000931A",
+        "property_3": "Restore Magicka50 pts",
+        "property_4": "37",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098499",
+        "property_2": "Restore Magicka 75 pts",
+        "property_3": "62",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000931B",
+        "property_2": "Restore Magicka 100 pts",
+        "property_3": "90",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Speed",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092F6",
+        "property_3": "Fortify Speed10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098479",
+        "property_2": "Fortify Speed 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092F7",
+        "property_2": "Fortify Speed 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Strength",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000092FA",
+        "property_3": "Fortify Strength10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009847A",
+        "property_2": "Fortify Strength 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000092FB",
+        "property_2": "Fortify Strength 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Warmth",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009848B",
+        "property_3": "Resist Frost15 pts for 15 secs",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009306",
+        "property_2": "Resist Frost 20 pts for 30 secs",
+        "property_3": "69",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009848C",
+        "property_2": "Resist Frost 40 pts for 30 secs",
+        "property_3": "168",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Willpower",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00056E51",
+        "property_3": "Fortify Willpower10 pts for 30 secs",
+        "property_4": "34",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E53",
+        "property_2": "Fortify Willpower 15 pts for 30 secs",
+        "property_3": "57",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E57",
+        "property_2": "Fortify Willpower 20 pts for 30 secs",
+        "property_3": "83",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Elixir of Exploration",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0004E937",
+        "property_3": "Night-Eye for 300 SecondsFortify Health 20 pts for 300 secs",
+        "property_4": "55",
+        "property_5": "0.2",
+        "property_6": "Available fromSinderionas part of theSeeking Your Rootsquest"
+      }
+    },
+    {
+      "name": "Moderate",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0004E938",
+        "property_2": "Night-Eye for 300 SecondsFortify Fatigue and Health 20 pts for 300 secs",
+        "property_3": "80",
+        "property_4": "0.3"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0004E939",
+        "property_2": "Night-Eye for 300 SecondsFortify Fatigue and Health 20 pts for 300 secsFortify Blade, Blunt, Destruction, Restoration,Security, and Sneak 5 pts for 300 secs",
+        "property_3": "170",
+        "property_4": "0.4"
+      }
+    },
+    {
+      "name": "Grand",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0004E93A",
+        "property_2": "Night-Eye for 300 SecondsFortify Fatigue and Health 20 pts for 300 secsFortify Blade, Blunt, Destruction, Restoration,Security, and Sneak 10 pts for 300 secs",
+        "property_3": "275",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Cure Disease",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000920E",
+        "property_2": "Cure Disease",
+        "property_3": "140",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Cure Paralysis",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000922E",
+        "property_2": "Cure Paralysis",
+        "property_3": "50",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Potion of Cure Poison",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000920F",
+        "property_2": "Cure Poison",
+        "property_3": "60",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Human Blood",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098309",
+        "property_2": "Drain Fatigue60 pts for 20 secsResist Poison5 pts for 10 secs",
+        "property_3": "0",
+        "property_4": "1",
+        "property_5": "Vicente Valtieris chest in theDark Brotherhood Sanctuary.ThePale Ladys secret room during theLost Historiesquest.The Palace SewersduringThe Ultimate Heist."
+      }
+    },
+    {
+      "name": "Cure for Vampirism",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000977E4",
+        "property_2": "Restore Fatigue, Health, and Magicka 500 ptsCure Vampirism",
+        "property_3": "4129",
+        "property_4": "0",
+        "property_5": "This is one of two potions obtained at the end of theVampire Curequest. This is the one you drink yourself (it is in your potions inventory) the other one is forRona Hassildor."
+      }
+    },
+    {
+      "name": "Hist Sap",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0003356A",
+        "property_2": "Hist Sap Effect",
+        "property_3": "0",
+        "property_4": "0",
+        "property_5": "Obtained during the questInfiltration."
+      }
+    },
+    {
+      "name": "Newheims Special Brew",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000B1241",
+        "property_2": "Drain Intelligence and Willpower 10 pts for 60 secsFortify Strength and Personality 10 pts for 60 secsRestore Fatigue 10 pts",
+        "property_3": "2",
+        "property_4": "1",
+        "property_5": "Obtained as a reward for the questNewheims Flagon."
+      }
+    },
+    {
+      "name": "Philter of Frostward",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0007BCC9",
+        "property_2": "Resist Frost 100 for 45 seconds",
+        "property_3": "816",
+        "property_4": "1",
+        "property_5": "Sdrassawill give you five of these for free during theTears of the Saviorquest."
+      }
+    },
+    {
+      "name": "Poison of Affliction",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC5B",
+        "property_3": "Damage Endurance2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC5C",
+        "property_2": "Damage Endurance 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC5D",
+        "property_2": "Damage Endurance 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Apathy",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098469",
+        "property_3": "Drain Speed5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009283",
+        "property_2": "Drain Speed 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009846A",
+        "property_2": "Drain Speed 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Burden",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0000920C",
+        "property_3": "Burden20 pts for 30 secs",
+        "property_4": "29",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984A5",
+        "property_2": "Burden 20 pts for 30 secs",
+        "property_3": "29",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000920D",
+        "property_2": "Burden 35 pts for 30 secs",
+        "property_3": "59",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Catastrophe",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098463",
+        "property_3": "Drain Luck5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009281",
+        "property_2": "Drain Luck 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098464",
+        "property_2": "Drain Luck 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Clumsiness",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC59",
+        "property_3": "Damage Agility2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC58",
+        "property_2": "Damage Agility 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC5A",
+        "property_2": "Damage Agility 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Confusion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC5F",
+        "property_3": "Damage Intelligence2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC5E",
+        "property_2": "Damage Intelligence 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC60",
+        "property_2": "Damage Intelligence 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Cowardice",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00056E59",
+        "property_3": "Drain Willpower5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E54",
+        "property_2": "Drain Willpower 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00056E56",
+        "property_2": "Drain Willpower 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Debilitation",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000984AB",
+        "property_3": "Drain Endurance5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000927D",
+        "property_2": "Drain Endurance 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984AC",
+        "property_2": "Drain Endurance 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Fatigue",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC71",
+        "property_3": "Damage Fatigue25 pts",
+        "property_4": "27",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC70",
+        "property_2": "Damage Fatigue 50 pts",
+        "property_3": "65",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC72",
+        "property_2": "Damage Fatigue 75 pts",
+        "property_3": "110",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Feeblemind",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098461",
+        "property_3": "Drain Intelligence5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009280",
+        "property_2": "Drain Intelligence 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098462",
+        "property_2": "Drain Intelligence 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of the Fool",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC65",
+        "property_3": "Damage Personality2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC64",
+        "property_2": "Damage Personality 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC66",
+        "property_2": "Damage Personality 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Frailty",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009846B",
+        "property_3": "Drain Strength5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009285",
+        "property_2": "Drain Strength 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009846C",
+        "property_2": "Drain Strength 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Fright",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC6E",
+        "property_3": "Damage Willpower2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC6D",
+        "property_2": "Damage Willpower 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC6F",
+        "property_2": "Damage Willpower 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Fumbling",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000984A9",
+        "property_3": "Drain Agility5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000927C",
+        "property_2": "Drain Agility 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984AA",
+        "property_2": "Drain Agility 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Illness",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC74",
+        "property_3": "Damage Health5 pts",
+        "property_4": "9",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC73",
+        "property_2": "Damage Health 10 pts",
+        "property_3": "22",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC75",
+        "property_2": "Damage Health 30 pts",
+        "property_3": "93",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Misfortune",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC62",
+        "property_3": "Damage Luck2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC61",
+        "property_2": "Damage Luck 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC63",
+        "property_2": "Damage Luck 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Paralysis",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098483",
+        "property_3": "Paralyzefor 3 seconds",
+        "property_4": "142",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009302",
+        "property_2": "Paralyze for 5 seconds",
+        "property_3": "237",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098484",
+        "property_2": "Paralyze for 7 seconds",
+        "property_3": "332",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Repulsion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098467",
+        "property_3": "Drain Personality5 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009282",
+        "property_2": "Drain Personality 10 pts for 30 secs",
+        "property_3": "40",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098468",
+        "property_2": "Drain Personality 15 pts for 45 secs",
+        "property_3": "100",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Separation",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "00098465",
+        "property_3": "Drain Magicka15 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009284",
+        "property_2": "Drain Magicka 30 pts for 30 secs",
+        "property_3": "41",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098466",
+        "property_2": "Drain Magicka 45 pts for 45 secs",
+        "property_3": "105",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Severing",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC77",
+        "property_3": "Damage Magicka15 pts",
+        "property_4": "7",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC76",
+        "property_2": "Damage Magicka 30 pts",
+        "property_3": "19",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC78",
+        "property_2": "Damage Magicka 50 pts",
+        "property_3": "36",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Sickness",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000984AF",
+        "property_3": "Drain Health15 pts for 15 secs",
+        "property_4": "43",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000927F",
+        "property_2": "Drain Health 20 pts for 30 secs",
+        "property_3": "124",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00098460",
+        "property_2": "Drain Health 30 pts for 30 secs",
+        "property_3": "209",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Silence",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0009849D",
+        "property_3": "Silencefor 15 seconds",
+        "property_4": "90",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00009320",
+        "property_2": "Silence for 30 seconds",
+        "property_3": "180",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0009849E",
+        "property_2": "Silence for 45 seconds",
+        "property_3": "270",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Slowing",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC68",
+        "property_3": "Damage Speed2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC67",
+        "property_2": "Damage Speed 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC69",
+        "property_2": "Damage Speed 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Weakness",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "0008DC6B",
+        "property_3": "Damage Strength2 pts",
+        "property_4": "24",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC6A",
+        "property_2": "Damage Strength 5 pts",
+        "property_3": "78",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0008DC6C",
+        "property_2": "Damage Strength 10 pts",
+        "property_3": "190",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Poison of Weariness",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "Weak",
+        "property_2": "000984AD",
+        "property_3": "Drain Fatigue15 pts for 15 secs",
+        "property_4": "8",
+        "property_5": "0.5"
+      }
+    },
+    {
+      "name": "(normal)",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0000927E",
+        "property_2": "Drain Fatigue 30 pts for 30 secs",
+        "property_3": "41",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "Strong",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000984AE",
+        "property_2": "Drain Fatigue 45 pts for 45 secs",
+        "property_3": "105",
+        "property_4": "0.5"
+      }
+    },
+    {
+      "name": "0018BD5A",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "1-3",
+        "property_2": "Damage Painted Trolls 20",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "000CD2DB",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "4-7",
+        "property_2": "Damage Painted Trolls 50",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "000CD2DC",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "8-11",
+        "property_2": "Damage Painted Trolls 100",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "000CD2DD",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "12-15",
+        "property_2": "Damage Painted Trolls 150",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "000CD2DE",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "16-19",
+        "property_2": "Damage Painted Trolls 200",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "000CD2DF",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "20",
+        "property_2": "Damage Painted Trolls 250",
+        "property_3": "0",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "Potion of Meepage",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000018C6",
+        "property_2": "Cure DiseaseDispel 50 ptsFire Damage 20 pts for 100 secsFortify Strength 0 pts for 0 secs",
+        "property_3": "3663",
+        "property_4": "10"
+      }
+    },
+    {
+      "name": "Test Poison",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000008AC",
+        "property_2": "Drain Health 10 pts for 10 secs",
+        "property_3": "17",
+        "property_4": "1"
+      }
+    },
+    {
+      "name": "Alteration Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00188872",
+        "property_2": "Water Walking for 66 seconds",
+        "property_3": "85",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Conjuration Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00188875",
+        "property_2": "Bound Axe for 10 seconds",
+        "property_3": "39",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Potion of Destruction",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00188878",
+        "property_2": "Fire Damage 10 pts for 10 secs",
+        "property_3": "142",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Illusion Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0018887A",
+        "property_2": "Invisibility for 100 seconds",
+        "property_3": "400",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Mysticism Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0018887C",
+        "property_2": "Detect Life 50 pts for 50 secs",
+        "property_3": "59",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Restoration Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0018887E",
+        "property_2": "Restore Health 5 pts for 5 secs",
+        "property_3": "39",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Poison of Nab",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "00033526",
+        "property_2": "Fire Damage 10 pts for 10 secsFrost Damage 5 pts for 15 secsShock Damage 2 pts for 20 secs",
+        "property_3": "266",
+        "property_4": "2"
+      }
+    },
+    {
+      "name": "Sleeping Potion",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "0002E71C",
+        "property_2": "Damage Fatigue 1 point for 300 seconds",
+        "property_3": "132",
+        "property_4": "0"
+      }
+    },
+    {
+      "name": "Summon Dremora Lord",
+      "type": "potions",
+      "category": "potions",
+      "properties": {
+        "property_1": "000981C5",
+        "property_2": "Summon Dremora Lord for 50 seconds",
+        "property_3": "785",
+        "property_4": "0"
+      }
+    }
+  ],
+  "perks": [],
+  "spells": [
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002294",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002309",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002325",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00071090",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002329",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0001C12C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0001FBB4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002326",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9800",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A982A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002334",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022FC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9806",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002295",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0001CEED",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9824",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA071",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002846",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D67E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA06C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002845",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9805",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002296",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002327",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022FD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9801",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A982B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002335",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006EF34",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9836",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A982D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9808",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022FE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A982C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002336",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9837",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002297",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9802",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002328",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0007108A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002298",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9803",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9807",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002289",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002291",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7625",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002285",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA068",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7626",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002286",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004A98B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA069",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA063",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002837",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002290",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002292",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7627",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002287",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA06A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA059",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002825",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C414",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002838",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C415",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002831",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00228E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002293",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA06B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002840",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA057",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002828",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA058",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002829",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA062",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002834",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002826",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C417",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002830",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C416",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002832",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C418",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002833",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7628",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002288",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C413",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C419",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002835",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA05D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00282D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA060",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002827",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA061",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002836",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C91E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97EF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "005DCC6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97D2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3FD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3FE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C400",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3DF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0084B14",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97DF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3EF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C912",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002330",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97EA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "01EF7F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C401",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C403",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002331",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97EB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C90F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C913",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3DC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C40D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002847",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C40E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002848",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C411",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00284A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C412",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00284B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "06D67C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3FF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C402",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "003C3E4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C914",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3E9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3E8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3EA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3EB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97EC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3D6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002332",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3D9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C40F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002849",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3EC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3ED",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3EE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022D8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97ED",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3D7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3DA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00232F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97F6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002333",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97E6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022DC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0004C915",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022CC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3D8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97A6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97F9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "014720",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97E9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97EE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0A97E3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3F4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "03C3DB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C48A3",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C48A3",
+      "duration": "Level 5 (Journeyman)Shock Damage20 pts in 5 ft on Target",
+      "area": "75(54)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C48A4",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C48A4",
+      "duration": "Level 10 (Expert)Shock Damage40 pts in 5 ft on Target",
+      "area": "211(131)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C48A5",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C48A5",
+      "duration": "Level 15 (Master)Shock Damage90 pts in 5 ft on Target",
+      "area": "715(371)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C48A6",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C48A6",
+      "duration": "Level 20 (Master)Shock Damage140 pts in 5 ft on Target",
+      "area": "1386(653)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C48A7",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C48A7",
+      "duration": "Level 26 (Master)Shock Damage200 pts in 10 ft on Target",
+      "area": "3551(1547)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C48A7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C4818",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C4819",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C4819",
+      "duration": "Level 5 (Apprentice)Fire Damage2 pt for 5 secs on TargetFrost Damage10 pts on TargetShock Damage10 pts on Target",
+      "area": "26(57)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C4819",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C481A",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C481A",
+      "duration": "Level 10 (Apprentice)Fire Damage3 pt for 7 secs on TargetFrost Damage13 pts on TargetShock Damage13 pts on Target",
+      "area": "43(92)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C481A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C481B",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C481B",
+      "duration": "Level 15 (Journeyman)Fire Damage5 pt for 10 secs on TargetFrost Damage16 pts on TargetShock Damage16 pts on Target",
+      "area": "78(167)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C481B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C481C",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C481C",
+      "duration": "Level 20 (Journeyman)Fire Damage6 pt for 10 secs on TargetFrost Damage20 pts on TargetShock Damage20 pts on Target",
+      "area": "102(216)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C481C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C481D",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C481D",
+      "duration": "Level 25 (Expert)Fire Damage8 pt for 10 secs on TargetFrost Damage20 pts on TargetShock Damage20 pts on Target",
+      "area": "158(333)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C481D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell 000C481E",
+      "type": "spell",
+      "school": "Spell ",
+      "magnitude": "000C481E",
+      "duration": "Level 30 (Expert)Fire Damage10 pt for 10 secs on TargetFrost Damage30 pts on TargetShock Damage30 pts on Target",
+      "area": "236(498)",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C481E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx084AEF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0001C4AD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0005DCC0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9819",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022EE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A319D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002306",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA032",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002310",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA033",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx089900",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0005DCC1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002299",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9825",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002302",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A982F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002307",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA035",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx089901",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA034",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002311",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9826",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002303",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022EF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97AD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A981C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022F1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D67B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9827",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002304",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D681",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9838",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97FF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9830",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002308",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00027441",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002337",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022FF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D678",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97B0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D67D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022A9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97BF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002300",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9839",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA04C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002339",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9828",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002305",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D679",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97CD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00229F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9829",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A983A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00230F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA04D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002338",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97C0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002301",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97D9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0B010705",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0008D1E9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97DC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022B9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D67F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3F5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx088899",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9831",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97DB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA064",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002839",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA04F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00233A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9832",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9835",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx08889A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97DA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA050",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00233B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA065",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D680",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9833",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022C3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97DD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022BC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA051",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00233C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA055",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA039",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002312",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA066",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9834",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97DE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA052",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA056",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002824",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA053",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002313",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA067",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00283C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A936D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A936E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9788",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9789",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A978B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A978C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx001D88",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A978D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A936B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9367",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002280",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A936C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002284",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A978E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9792",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C405",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E8",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00000136",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00027442",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00027443",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0005E155",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9798",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D7AF",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002322",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3FB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AD",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3FC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AE",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9811",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E0",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9812",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9820",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022EA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9813",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E2",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9814",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E3",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9815",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E4",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9816",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E5",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9817",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E6",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9818",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E7",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C406",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022E9",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9822",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9368",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002281",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9823",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0006D67A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA03C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002315",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA03F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002316",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA042",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002317",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA040",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002318",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA044",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002319",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA049",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA047",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA04A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx00231C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9790",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9794",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9796",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9799",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A979C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9369",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002282",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C3FA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022AC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C407",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022EC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7661",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002323",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9809",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980C",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980D",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980E",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A980F",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9810",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA03A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002320",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0008D1EA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002314",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9793",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9795",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9797",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A97A1",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A936A",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002283",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000A9821",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022EB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "0003C409",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx0022ED",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000AA03B",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002321",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000C7662",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "xx002324",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000CA0CA",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000CA0CB",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "000CA0CC",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Spell ",
+      "type": "spell",
+      "school": "00083714",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    },
+    {
+      "name": "Tome ",
+      "type": "spell",
+      "school": "None",
+      "magnitude": "",
+      "duration": "",
+      "area": "",
+      "cost": ""
+    }
+  ],
+  "metadata": {
+    "scraped_at": "2025-06-26 20:55:00",
+    "source": "UESP Wiki",
+    "version": "1.0",
+    "processed_at": "2025-06-26 20:55:08",
+    "total_items": 946
+  }
+}
