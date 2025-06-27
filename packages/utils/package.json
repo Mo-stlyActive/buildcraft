@@ -10,9 +10,6 @@
     "lint": "eslint src --ext .ts",
     "test": "jest"
   },
-  "dependencies": {
-    "@buildcraft/types": "workspace:*"
-  },
   "devDependencies": {
     "@types/node": "^20",
     "typescript": "^5",
