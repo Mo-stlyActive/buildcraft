@@ -79,7 +79,7 @@ def main():
     """Main validation function"""
     try:
         # Load processed data
-        with open("../../oblivion/oblivion_processed.json", 'r', encoding='utf-8') as f:
+        with open("data/oblivion/oblivion_processed.json", 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         # Validate data

@@ -220,13 +220,22 @@ class OblivionScraper:
 
     def save_data(self, data: Dict[str, Any], filename: str = "oblivion_data.json"):
         """Save scraped data to JSON file"""
-        output_path = f"../../oblivion/{filename}"
+        output_path = f"data/oblivion/{filename}"
         try:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             logger.info(f"Data saved to {output_path}")
         except Exception as e:
             logger.error(f"Error saving data: {e}")
+
+    def load_data(self, filename: str = "oblivion_data.json") -> Dict[str, Any]:
+        """Load scraped data from JSON file"""
+        try:
+            with open(f"data/oblivion/{filename}", 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading data: {e}")
+            return None
 
 def main():
     """Main function to run the scraper"""

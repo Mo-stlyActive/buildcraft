@@ -23,7 +23,7 @@ class OblivionDataProcessor:
     def load_data(self, filename: str = "oblivion_data.json") -> Dict[str, Any]:
         """Load scraped data from JSON file"""
         try:
-            with open(f"../../oblivion/{filename}", 'r', encoding='utf-8') as f:
+            with open(f"data/oblivion/{filename}", 'r', encoding='utf-8') as f:
                 return json.load(f)
         except FileNotFoundError:
             logger.error(f"Data file {filename} not found")
@@ -173,7 +173,7 @@ class OblivionDataProcessor:
 
     def save_processed_data(self, data: Dict[str, Any], filename: str = "oblivion_processed.json"):
         """Save processed data to JSON file"""
-        output_path = f"../../oblivion/{filename}"
+        output_path = f"data/oblivion/{filename}"
         try:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
