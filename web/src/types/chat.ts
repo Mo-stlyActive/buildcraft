@@ -3,14 +3,30 @@ export interface Message {
   content: string;
   type: 'user' | 'ai';
   timestamp: Date;
-  buildSuggestion?: BuildSuggestion;
+  buildSuggestion?: BuildResponse;
+  searchResults?: SearchResponse;
 }
 
-export interface BuildSuggestion {
-  id: string;
+export interface SearchResult {
   name: string;
+  category: string;
+  type: string;
+  properties: Record<string, any>;
+  score: number;
+}
+
+export interface SearchResponse {
+  results: SearchResult[];
+  reasoning: string;
+  suggestions: string[];
+}
+
+export interface BuildResponse {
+  build_name: string;
   skills: string[];
-  keyItem: string;
+  key_items: string[];
   playstyle: string;
-  description: string;
+  reasoning: string;
+  synergies: string[];
+  progression: string[];
 } 

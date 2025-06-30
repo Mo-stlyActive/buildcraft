@@ -1,7 +1,7 @@
-import { BuildSuggestion } from '@/types/chat';
+import { BuildResponse } from '@/types/chat';
 
 interface BuildSuggestionCardProps {
-  build: BuildSuggestion;
+  build: BuildResponse;
 }
 
 export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps) {
@@ -32,7 +32,7 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
       <div className="flex items-center mb-4">
         <span className="text-3xl mr-3">🎮</span>
         <div>
-          <h3 className="text-xl font-bold text-gray-900">{build.name}</h3>
+          <h3 className="text-xl font-bold text-gray-900">{build.build_name}</h3>
           <p className="text-sm text-gray-600">Character Build</p>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
           Key Equipment
         </h4>
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-          <p className="text-gray-900 font-medium">{build.keyItem}</p>
+          <p className="text-gray-900 font-medium">{build.key_items.join(', ')}</p>
         </div>
       </div>
       
@@ -81,7 +81,7 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
           <span className="text-lg mr-2">📖</span>
           Build Overview
         </h4>
-        <p className="text-gray-700 leading-relaxed text-sm">{build.description}</p>
+        <p className="text-gray-700 leading-relaxed text-sm">{build.reasoning}</p>
       </div>
       
       {/* Action Buttons */}
@@ -105,7 +105,7 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
         </h4>
         <ul className="text-sm text-gray-600 space-y-1">
           <li>• Focus on leveling your primary skills first</li>
-          <li>• Use {build.keyItem} as your main equipment</li>
+          <li>• Use {build.key_items.join(', ')} as your main equipment</li>
           <li>• Practice {build.playstyle.toLowerCase()} in combat</li>
         </ul>
       </div>

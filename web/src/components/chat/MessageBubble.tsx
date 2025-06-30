@@ -1,5 +1,6 @@
 import { Message } from '@/types/chat';
 import BuildSuggestionCard from './BuildSuggestionCard';
+import SearchResultsCard from './SearchResultsCard';
 
 interface MessageBubbleProps {
   message: Message;
@@ -28,6 +29,13 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
         {!isUser && message.buildSuggestion && (
           <div className="mt-3">
             <BuildSuggestionCard build={message.buildSuggestion} />
+          </div>
+        )}
+        
+        {/* Display search results if available */}
+        {!isUser && message.searchResults && (
+          <div className="mt-3">
+            <SearchResultsCard searchResults={message.searchResults} />
           </div>
         )}
       </div>

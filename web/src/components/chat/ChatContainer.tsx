@@ -4,7 +4,7 @@ import { useState } from 'react';
 import ChatMessages from './ChatMessages';
 import ChatInput from './ChatInput';
 import { Message } from '@/types/chat';
-import { sendChatMessage } from '@/lib/api';
+import { sendChatMessage, searchItems } from '@/lib/api';
 
 export default function ChatContainer() {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -24,7 +24,29 @@ export default function ChatContainer() {
     setIsLoading(true);
 
     try {
-      const response = await sendChatMessage(content);
+      // Determine if this is a search request or build request
+      const isSearchRequest = content.toLowerCase().includes('search') || 
+                             content.toLowerCase().includes('find') ||
+                             content.toLowerCase().includes('what') ||
+                             content.toLowerCase().includes('show me');
+      
+      let response;
+      if (isSearchRequest) {
+        // Extract search query and category
+        const searchQuery = content.replace(/search|find|what|show me/gi, '').trim();
+        const categoryMatch = content.match(/(skills?|weapons?|armor|spells?|items?)/i);
+        const category = categoryMatch ? categoryMatch[1] : undefined;
+        
+        const searchResponse = await searchItems(searchQuery, category, 5);
+        response = {
+          success: true,
+          search: searchResponse,
+          message: searchResponse.reasoning || `Found ${searchResponse.results.length} items for "${searchQuery}"`,
+        };
+      } else {
+        // Treat as build request
+        response = await sendChatMessage(content);
+      }
       
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -32,6 +54,7 @@ export default function ChatContainer() {
         type: 'ai',
         timestamp: new Date(),
         buildSuggestion: response.build,
+        searchResults: response.search,
       };
 
       setMessages(prev => [...prev, aiMessage]);
