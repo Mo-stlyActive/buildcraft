@@ -77,20 +77,28 @@ export default function ChatContainer() {
   };
 
   return (
-    <div className="flex flex-col h-screen max-w-4xl mx-auto bg-gray-50">
+    <div className="flex flex-col h-[80vh] max-w-5xl mx-auto bg-slate-900/50 backdrop-blur-sm border border-purple-500/20 rounded-2xl overflow-hidden shadow-2xl">
       {/* Header */}
-      <div className="bg-white border-b border-gray-200 px-6 py-4">
-        <h1 className="text-2xl font-bold text-gray-900">BuildCraft AI</h1>
-        <p className="text-gray-600">AI-powered game build advisor</p>
+      <div className="bg-gradient-to-r from-purple-900/80 to-slate-900/80 backdrop-blur-sm border-b border-purple-500/30 px-6 py-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold text-white">⚔️ Build Generator</h1>
+            <p className="text-purple-200">AI-powered character optimization</p>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+            <span className="text-sm text-green-300 font-medium">Connected</span>
+          </div>
+        </div>
       </div>
 
       {/* Chat Messages */}
-      <div className="flex-1 overflow-y-auto p-6">
+      <div className="flex-1 overflow-y-auto p-6 bg-gradient-to-b from-slate-900/30 to-slate-900/60">
         <ChatMessages messages={messages} isLoading={isLoading} />
       </div>
 
       {/* Chat Input */}
-      <div className="bg-white border-t border-gray-200 p-6">
+      <div className="bg-slate-900/80 backdrop-blur-sm border-t border-purple-500/30 p-6">
         <ChatInput 
           onSendMessage={handleSendMessage}
           onClearChat={handleClearChat}

@@ -43,30 +43,30 @@ export default function GameSelector({ onGameSelect, selectedGame }: GameSelecto
   const [hoveredGame, setHoveredGame] = useState<string | null>(null);
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
-      <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
           Choose Your Adventure
-        </h1>
-        <p className="text-lg text-gray-600">
-          Select a game to start generating unique, creative character builds
+        </h2>
+        <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          Select a game to start generating unique, creative character builds that break the meta
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {AVAILABLE_GAMES.map((game) => (
           <div
             key={game.id}
-            className={`relative bg-white border-2 rounded-xl p-6 cursor-pointer transition-all duration-200 ${
+            className={`group relative bg-slate-800/50 backdrop-blur-sm border rounded-2xl p-8 cursor-pointer transition-all duration-300 ${
               selectedGame === game.id
-                ? 'border-blue-500 bg-blue-50 shadow-lg scale-105'
+                ? 'border-purple-500 bg-purple-500/20 shadow-2xl shadow-purple-500/20 scale-105'
                 : hoveredGame === game.id
-                ? 'border-gray-400 shadow-md scale-102'
-                : 'border-gray-200 hover:border-gray-300'
+                ? 'border-purple-500/50 shadow-xl scale-102'
+                : 'border-slate-700/50 hover:border-purple-500/30'
             } ${
               game.status === 'coming_soon' 
                 ? 'opacity-60 cursor-not-allowed' 
-                : ''
+                : 'hover:shadow-xl'
             }`}
             onClick={() => game.status === 'active' && onGameSelect(game.id)}
             onMouseEnter={() => setHoveredGame(game.id)}
@@ -74,71 +74,50 @@ export default function GameSelector({ onGameSelect, selectedGame }: GameSelecto
           >
             {/* Status Badge */}
             {game.status === 'coming_soon' && (
-              <div className="absolute top-3 right-3 bg-yellow-100 text-yellow-800 text-xs font-medium px-2 py-1 rounded-full">
+              <div className="absolute top-4 right-4 bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-medium px-3 py-1 rounded-full">
                 Coming Soon
               </div>
             )}
 
+            {game.status === 'active' && (
+              <div className="absolute top-4 right-4 bg-green-500/20 border border-green-500/30 text-green-300 text-xs font-medium px-3 py-1 rounded-full">
+                • Available Now
+              </div>
+            )}
+
             {/* Game Icon */}
-            <div className="text-6xl mb-4 text-center">
+            <div className="text-7xl mb-6 text-center group-hover:scale-110 transition-transform duration-300">
               {game.image}
             </div>
 
             {/* Game Info */}
             <div className="text-center">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-300 transition-colors">
                 {game.name}
               </h3>
-              <p className="text-sm text-gray-600 mb-4">
+              <p className="text-gray-300 mb-6 leading-relaxed">
                 {game.description}
               </p>
 
               {/* Action Button */}
               {game.status === 'active' ? (
-                <button className="w-full bg-blue-500 text-white font-medium py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">
-                  Start Building
+                <button className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 shadow-lg hover:shadow-purple-500/25 group-hover:scale-105">
+                  ⚔️ Start Building
                 </button>
               ) : (
                 <button 
                   disabled 
-                  className="w-full bg-gray-300 text-gray-500 font-medium py-2 px-4 rounded-lg cursor-not-allowed"
+                  className="w-full bg-slate-700/50 text-gray-400 font-semibold py-3 px-6 rounded-xl cursor-not-allowed border border-slate-600/50"
                 >
-                  Coming Soon
+                  🕒 Coming Soon
                 </button>
               )}
             </div>
+
+            {/* Hover Effect */}
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 to-indigo-500/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
           </div>
         ))}
-      </div>
-
-      {/* Feature Preview */}
-      <div className="mt-12 text-center">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">
-          What Makes BuildCraft Special?
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <div className="p-4">
-            <div className="text-3xl mb-2">🤖</div>
-            <h3 className="font-semibold text-gray-900 mb-2">AI-Powered</h3>
-            <p className="text-sm text-gray-600">
-              Advanced AI analyzes your preferences to create unique builds
-            </p>
-          </div>
-          <div className="p-4">
-            <div className="text-3xl mb-2">🎯</div>
-            <h3 className="font-semibold text-gray-900 mb-2">Anti-Meta</h3>
-            <p className="text-sm text-gray-600">
-              Focus on creativity and fun over optimization and min-maxing
-            </p>
-          </div>
-          <div className="p-4">
-            <div className="text-3xl mb-2">🎭</div>
-            <h3 className="font-semibold text-gray-900 mb-2">Roleplay Rich</h3>
-            <p className="text-sm text-gray-600">
-              Get immersive backstories and character motivations
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
