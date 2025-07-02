@@ -11,7 +11,7 @@ export interface SearchResult {
   name: string;
   category: string;
   type: string;
-  properties: Record<string, any>;
+  properties: Record<string, unknown>;
   score: number;
 }
 
@@ -21,12 +21,31 @@ export interface SearchResponse {
   suggestions: string[];
 }
 
+export interface SkillDetail {
+  name: string;
+  category: string;
+  score: number;
+  properties?: Record<string, unknown>;
+}
+
+export interface BuildEquipment {
+  weapons: string[];
+  armor: string[];
+  accessories: string[];
+}
+
 export interface BuildResponse {
   build_name: string;
+  race: string;
+  race_description: string;
   skills: string[];
-  key_items: string[];
+  skill_details: SkillDetail[];
+  equipment: BuildEquipment;
+  spells: string[];
   playstyle: string;
   reasoning: string;
   synergies: string[];
   progression: string[];
+  roleplay_flavor: string;
+  tips: string[];
 } 

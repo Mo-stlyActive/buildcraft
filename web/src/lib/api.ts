@@ -4,7 +4,7 @@ export interface SearchResult {
   name: string;
   category: string;
   type: string;
-  properties: Record<string, any>;
+  properties: Record<string, unknown>;
   score: number;
 }
 
@@ -16,12 +16,22 @@ export interface SearchResponse {
 
 export interface BuildResponse {
   build_name: string;
+  race: string;
+  race_description: string;
   skills: string[];
-  key_items: string[];
+  skill_details: Array<{name: string; category: string; score: number}>;
+  equipment: {
+    weapons: string[];
+    armor: string[];
+    accessories: string[];
+  };
+  spells: string[];
   playstyle: string;
   reasoning: string;
   synergies: string[];
   progression: string[];
+  roleplay_flavor: string;
+  tips: string[];
 }
 
 export interface ChatResponse {
@@ -75,7 +85,7 @@ export async function generateBuild(prompt: string, playstyle?: string, difficul
   }
 }
 
-export async function sendChatMessage(prompt: string, game: string = 'oblivion'): Promise<ChatResponse> {
+export async function sendChatMessage(prompt: string): Promise<ChatResponse> {
   try {
     // First try to generate a build
     const buildResponse = await generateBuild(prompt);

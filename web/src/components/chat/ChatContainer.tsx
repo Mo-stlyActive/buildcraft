@@ -59,6 +59,7 @@ export default function ChatContainer() {
 
       setMessages(prev => [...prev, aiMessage]);
     } catch (error) {
+      console.error('Chat error:', error);
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
         content: 'Sorry, I encountered an error processing your request. Please try again.',

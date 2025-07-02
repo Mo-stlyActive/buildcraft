@@ -33,8 +33,17 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
         <span className="text-3xl mr-3">🎮</span>
         <div>
           <h3 className="text-xl font-bold text-gray-900">{build.build_name}</h3>
-          <p className="text-sm text-gray-600">Character Build</p>
+          <p className="text-sm text-gray-600">{build.race} - {build.playstyle}</p>
         </div>
+      </div>
+      
+      {/* Race Section */}
+      <div className="mb-4 bg-blue-50 border border-blue-200 rounded-lg p-3">
+        <h4 className="font-semibold text-gray-800 mb-1 flex items-center">
+          <span className="text-lg mr-2">👤</span>
+          {build.race}
+        </h4>
+        <p className="text-sm text-gray-700">{build.race_description}</p>
       </div>
       
       {/* Skills Section */}
@@ -55,34 +64,67 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
         </div>
       </div>
       
-      {/* Key Item Section */}
+      {/* Equipment Section */}
       <div className="mb-4">
         <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
           <span className="text-lg mr-2">🗡️</span>
-          Key Equipment
+          Equipment
         </h4>
-        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-          <p className="text-gray-900 font-medium">{build.key_items.join(', ')}</p>
+        <div className="space-y-2">
+          {build.equipment.weapons.length > 0 && (
+            <div className="bg-red-50 border border-red-200 rounded-lg p-2">
+              <p className="text-sm font-medium text-gray-800">Weapons:</p>
+              <p className="text-sm text-gray-900">{build.equipment.weapons.join(', ')}</p>
+            </div>
+          )}
+          {build.equipment.armor.length > 0 && (
+            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-2">
+              <p className="text-sm font-medium text-gray-800">Armor:</p>
+              <p className="text-sm text-gray-900">{build.equipment.armor.join(', ')}</p>
+            </div>
+          )}
         </div>
       </div>
       
-      {/* Playstyle Section */}
-      <div className="mb-4">
+      {/* Spells Section */}
+      {build.spells.length > 0 && (
+        <div className="mb-4">
+          <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+            <span className="text-lg mr-2">✨</span>
+            Key Spells
+          </h4>
+          <div className="bg-purple-50 border border-purple-200 rounded-lg p-3">
+            <p className="text-gray-900 text-sm">{build.spells.join(', ')}</p>
+          </div>
+        </div>
+      )}
+      
+      {/* Roleplay Flavor */}
+      <div className="mb-4 bg-green-50 border border-green-200 rounded-lg p-3">
         <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
-          <span className="text-lg mr-2">🎯</span>
-          Playstyle
+          <span className="text-lg mr-2">🎭</span>
+          Roleplay
         </h4>
-        <p className="text-gray-700 leading-relaxed">{build.playstyle}</p>
+        <p className="text-gray-700 leading-relaxed text-sm italic">{build.roleplay_flavor}</p>
       </div>
       
-      {/* Description Section */}
-      <div className="mb-6">
-        <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
-          <span className="text-lg mr-2">📖</span>
-          Build Overview
-        </h4>
-        <p className="text-gray-700 leading-relaxed text-sm">{build.reasoning}</p>
-      </div>
+      {/* Synergies Section */}
+      {build.synergies.length > 0 && (
+        <div className="mb-4">
+          <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+            <span className="text-lg mr-2">⚡</span>
+            Synergies
+          </h4>
+          <ul className="text-sm text-gray-700 space-y-1">
+            {build.synergies.map((synergy, index) => (
+              <li key={index} className="flex items-start">
+                <span className="text-green-500 mr-2">•</span>
+                {synergy}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       
       {/* Action Buttons */}
       <div className="flex flex-col sm:flex-row gap-2">
@@ -98,17 +140,22 @@ export default function BuildSuggestionCard({ build }: BuildSuggestionCardProps)
       </div>
       
       {/* Tips Section */}
-      <div className="mt-4 pt-4 border-t border-gray-200">
-        <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
-          <span className="text-lg mr-2">💡</span>
-          Quick Tips
-        </h4>
-        <ul className="text-sm text-gray-600 space-y-1">
-          <li>• Focus on leveling your primary skills first</li>
-          <li>• Use {build.key_items.join(', ')} as your main equipment</li>
-          <li>• Practice {build.playstyle.toLowerCase()} in combat</li>
-        </ul>
-      </div>
+      {build.tips.length > 0 && (
+        <div className="mt-4 pt-4 border-t border-gray-200">
+          <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+            <span className="text-lg mr-2">💡</span>
+            Tips
+          </h4>
+          <ul className="text-sm text-gray-600 space-y-1">
+            {build.tips.map((tip, index) => (
+              <li key={index} className="flex items-start">
+                <span className="text-blue-500 mr-2">•</span>
+                {tip}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 } 
